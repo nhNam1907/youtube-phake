@@ -1,0 +1,1349 @@
+@media (min-width: 360px) {
+     :root {
+          --nav-height: 56px;
+          --sidebar-width: 0px;
+          --active__sidebar-width: 160px;
+          --filter-wraper-height: 56px;
+          --font-icon: 24px;
+     }
+
+     .nav {
+          height: var(--nav-height);
+          padding: 0 16px;
+     }
+
+     .toggle__icon {
+          display: none;
+     }
+
+     .ytb__logo {
+          width: 90px;
+     }
+
+     .ytb__country {
+          font-size: 8px;
+     }
+
+     .search {
+          display: none;
+     }
+
+     .taskbar__item {
+          margin: 0 12px;
+     }
+
+     .taskbar__search {
+          display: block;
+     }
+
+     .up-video {
+          display: none;
+     }
+
+     .apps {
+          display: none;
+     }
+
+     .notifications__container {
+          width: 0;
+     }
+
+     .notifications__header {
+          display: none;
+     }
+
+     .active__taskbar-icon {
+          opacity: 0.65;
+     }
+     .taskbar__item-icon {
+          font-size: var(--font-icon);
+     }
+
+     .avatar-img {
+          width: 36px;
+          height: 36px;
+     }
+
+     .active {
+          background-color: #fff;
+     }
+
+     .filter-option {
+          font-size: 14px;
+          padding: 2px 6px;
+     }
+
+     .left-btn,
+     .right-btn {
+          display: none;
+     }
+
+     .video__container {
+          grid-template-columns: 1fr;
+          padding: 15px 25px;
+     }
+
+     .video__content {
+          padding: 0;
+     }
+
+     .video__channel-img {
+          width: 36px;
+          height: 36px;
+          margin-right: 6px;
+     }
+
+     .video__content-title {
+          font-size: 16px;
+          line-height: 22px;
+          max-height: 44px;
+          margin-bottom: 4px;
+     }
+
+     .video__channel-name,
+     .video__history {
+          font-size: 12px;
+     }
+     .video__dot {
+          width: 3px;
+          height: 3px;
+          border-radius: 50%;
+          background-color: #606060;
+          margin: 0 3px;
+     }
+}
+
+@media (min-width: 414px) {
+     :root {
+          --nav-height: 40px;
+          --sidebar-width: 0px;
+          --active__sidebar-width: 160px;
+          --filter-wraper-height: 36px;
+          --font-icon: 16px;
+     }
+
+     .nav {
+          height: var(--nav-height);
+          padding: 0 16px;
+     }
+
+     .toggle__icon {
+          font-size: 15px;
+          display: none;
+     }
+
+     .ytb__logo {
+          width: 60px;
+     }
+
+     .ytb__country {
+          font-size: 8px;
+     }
+
+     .search {
+          display: none;
+     }
+
+     .taskbar__item {
+          margin: 0 8px;
+     }
+
+     .taskbar__search {
+          display: block;
+     }
+
+     .taskbar__item-icon {
+          font-size: var(--font-icon);
+     }
+
+     .avatar-img {
+          width: 24px;
+          height: 24px;
+     }
+
+     .active {
+          background-color: #fff;
+     }
+
+     .filter-option {
+          font-size: 10px;
+          padding: 0px 5px;
+     }
+
+     .left-btn,
+     .right-btn {
+          padding: 8px 9px;
+     }
+
+     .left-btn-icon,
+     .right-btn-icon {
+          font-size: 14px;
+     }
+
+     .video__container {
+          grid-template-columns: 1fr 1fr;
+          padding: 10px 20px;
+          grid-gap: 20px 20px;
+     }
+
+     .video__content {
+          padding: 0;
+     }
+
+     .video__channel-img {
+          width: 24px;
+          height: 24px;
+          margin-right: 6px;
+     }
+
+     .video__content-title {
+          font-size: 8px;
+          line-height: 16px;
+          max-height: 32px;
+          margin-bottom: 4px;
+     }
+
+     .video__channel-name,
+     .video__history {
+          font-size: 8px;
+     }
+     .video__dot {
+          width: 3px;
+          height: 3px;
+          border-radius: 50%;
+          background-color: #606060;
+          margin: 0 3px;
+     }
+}
+
+@media (min-width: 576px) {
+     :root {
+          --nav-height: 40px;
+          --sidebar-width: 55px;
+          --active__sidebar-width: 160px;
+          --filter-wraper-height: 36px;
+          --font-icon: 18px;
+     }
+
+     .nav {
+          height: var(--nav-height);
+          padding: 0 16px;
+     }
+
+     .logo {
+          margin-right: 30px;
+     }
+
+     .toggle__icon {
+          display: block;
+          font-size: 15px;
+          margin-right: 15px;
+     }
+
+     .ytb__logo {
+          width: 50px;
+     }
+
+     .ytb__country {
+          font-size: 6px;
+     }
+
+     .search {
+          display: flex;
+          flex: 1;
+     }
+
+     .up-video {
+          display: block;
+     }
+
+     .apps {
+          display: block;
+     }
+
+     .taskbar__search {
+          display: none;
+     }
+
+     .search__form {
+          height: 24px;
+     }
+
+     .search__input {
+          padding: 1px 6px;
+     }
+
+     .search__input::placeholder {
+          font-size: 10px;
+     }
+
+     .search__btn {
+          height: 24px;
+          width: 40px;
+     }
+
+     .search__icon,
+     .voice__icon {
+          font-size: var(--font-icon);
+     }
+
+     .taskbar__item-icon {
+          font-size: var(--font-icon);
+     }
+
+     .taskbar {
+          margin-left: 8px;
+     }
+
+     .taskbar__item {
+          margin: 0 8px;
+     }
+
+     .up-video__container {
+          width: 120px;
+     }
+
+     .up-video__item {
+          height: 24px;
+          align-items: center;
+     }
+
+     .up-video__link {
+          display: flex;
+          line-height: 24px;
+          flex-direction: row;
+          align-items: center;
+          font-size: 10px;
+     }
+
+     .up-video__icon {
+          font-size: 16px;
+          margin-right: 10px;
+          font-weight: 300;
+     }
+
+     .select-app__container {
+          position: absolute;
+          top: 35px;
+          right: 75px;
+          display: none;
+          padding: 8px 0 8px 0;
+          width: 160px;
+          background-color: #fff;
+          z-index: 99;
+     }
+
+     .select-app__tv,
+     .select-app__artist,
+     .select-app__item {
+          height: 24px;
+     }
+
+     .select-app__link {
+          display: flex;
+          line-height: 24px;
+          font-size: 10px;
+          color: var(--primary-color);
+          font-weight: 300;
+     }
+
+     .select-app__tv {
+          margin-top: 4px;
+          margin-bottom: 4px;
+     }
+
+     .select-app__list {
+          padding: 4px 0;
+     }
+
+     .select-app__artist {
+          margin: 4px 0;
+     }
+
+     .select-app__icon {
+          width: 20px;
+          margin: 0 6px;
+     }
+
+     .notifications__container {
+          width: 300px;
+          background-color: #fff;
+          right: 35px;
+          display: none;
+          overflow: hidden;
+     }
+
+     .notifications__header {
+          display: flex;
+          height: 24px;
+          padding: 0 16px;
+          font-size: 14px;
+     }
+
+     .notifications__list {
+          max-height: 45vh;
+          overflow: scroll;
+          overflow-x: hidden;
+     }
+
+     .notifications__list::-webkit-scrollbar {
+          width: 8px;
+          border-radius: 0.5rem;
+     }
+
+     .notifications__list::-webkit-scrollbar-thumb {
+          background: #fff;
+          border-radius: 0.5rem;
+     }
+
+     .notifications__list:hover::-webkit-scrollbar-thumb {
+          background-color: #909090;
+     }
+
+     .notifications__icon {
+          font-size: 18px;
+     }
+
+     .notifications__item {
+          padding: 8px 0 8px 8px;
+          height: 60px;
+     }
+
+     .notifications__link {
+          width: 280px;
+          font-size: 8px;
+          padding-right: 16px;
+     }
+
+     .notifications__channel {
+          width: 24px;
+          height: 24px;
+     }
+
+     .notifications__video-title {
+          line-height: 14px;
+          margin: 0 8px;
+     }
+
+     .notifications__video-img {
+          width: 49px;
+          object-fit: cover;
+     }
+
+     .active__taskbar-icon {
+          opacity: 1;
+     }
+
+     .avatar-img {
+          width: 24px;
+          height: 24px;
+     }
+
+     .sidebar__header {
+          padding: 14px;
+          display: flex;
+          height: var(--nav-height);
+          align-items: center;
+          opacity: 1;
+     }
+
+     .sidebar {
+          font-size: 10px;
+          padding-right: 0;
+          overflow: hidden;
+     }
+
+     .sidebar__active .menu .menu__item-link,
+     .sidebar__active .submenu .menu__item-link {
+          height: 40px;
+          padding-top: 0;
+          justify-content: left;
+     }
+     .menu {
+          margin-bottom: 0;
+     }
+
+     .submenu {
+          margin-bottom: 0px;
+          padding-top: 0px;
+          border-top: none;
+     }
+
+     .sidebar__active .submenu {
+          margin-bottom: 12px;
+          padding-top: 12px;
+          border-top: 1px solid #e5e5e5;
+     }
+
+     .sidebar__active .submenu .menu__item-link:nth-child(2),
+     .sidebar__active .submenu .menu__item-link:nth-child(3),
+     .sidebar__active .submenu .menu__item-link:nth-child(5),
+     .sidebar__active .submenu .menu__item-link:nth-child(4),
+     .sidebar__active .submenu .menu__item-link:last-child {
+          display: flex;
+     }
+
+     .submenu .menu__item-link:nth-child(2),
+     .submenu .menu__item-link:nth-child(3),
+     .submenu .menu__item-link:nth-child(5),
+     .submenu .menu__item-link:nth-child(4),
+     .submenu .menu__item-link:last-child {
+          display: none;
+     }
+
+     .menu {
+          width: 100%;
+          margin-bottom: 6px;
+          padding-top: 6px;
+     }
+
+     .menu__item-link {
+          height: 55px;
+          justify-content: center;
+     }
+
+     .menu__item-icon {
+          font-size: var(--font-icon);
+     }
+
+     .menu__item-name {
+          font-size: 8px;
+     }
+
+     .active {
+          background-color: #fff;
+     }
+
+     .filter-option {
+          font-size: 10px;
+          padding: 0px 5px;
+     }
+
+     .left-btn,
+     .right-btn {
+          padding: 8px 9px;
+     }
+
+     .left-btn-icon,
+     .right-btn-icon {
+          font-size: 14px;
+     }
+
+     .modal__sidebar-header {
+          height: var(--nav-height);
+          display: flex;
+          align-items: center;
+          margin-left: 14px;
+     }
+
+     .modal__toggle-icon {
+          font-size: var(--font-icon);
+          padding-bottom: 3px;
+          margin: 0 10px 0 2px;
+     }
+
+     .modal__sidebar-menu {
+          margin: 6px 0;
+     }
+
+     .modal__sidebar-submenu {
+          padding-top: 6px;
+     }
+
+     .modal__sidebar-link {
+          height: 35px;
+     }
+
+     .modal__sidebar-icon {
+          font-size: var(--font-icon);
+     }
+
+     .modal__sidebar-name {
+          font-size: 10px;
+     }
+
+     .video__container {
+          grid-template-columns: 1fr 1fr 1fr;
+          padding: 10px;
+     }
+
+     .video__content {
+          padding: 0;
+     }
+
+     .video__channel-img {
+          width: 24px;
+          height: 24px;
+          margin-right: 6px;
+     }
+
+     .video__content-title {
+          font-size: 8px;
+          line-height: 16px;
+          max-height: 32px;
+          margin-bottom: 4px;
+     }
+
+     .video__channel-name,
+     .video__history {
+          font-size: 8px;
+     }
+     .video__dot {
+          width: 3px;
+          height: 3px;
+          border-radius: 50%;
+          background-color: #606060;
+          margin: 0 3px;
+     }
+}
+
+@media (min-width: 768px) {
+     :root {
+          --nav-height: 46px;
+          --sidebar-width: 68px;
+          --active__sidebar-width: 200px;
+          --filter-wraper-height: 48px;
+          --font-icon: 18px;
+     }
+
+     .nav {
+          height: var(--nav-height);
+          padding: 0 22px;
+     }
+
+     .toggle__icon {
+          font-size: 18px;
+     }
+
+     .ytb__logo {
+          width: 80px;
+     }
+
+     .ytb__country {
+          font-size: 8px;
+     }
+
+     .search {
+          flex: 1;
+     }
+
+     .search__form {
+          height: 30px;
+     }
+
+     .search__input {
+          padding: 5px 6px;
+     }
+
+     .search__input::placeholder {
+          font-size: 14px;
+     }
+
+     .search__btn {
+          height: 30px;
+          width: 50px;
+     }
+
+     .search__icon,
+     .voice__icon {
+          font-size: 18px;
+     }
+
+     .taskbar__item-icon {
+          font-size: var(--font-icon);
+     }
+
+     .taskbar {
+          margin-left: 12px;
+     }
+
+     .avatar-img {
+          width: 26px;
+          height: 26px;
+     }
+
+     .menu__item-link {
+          height: 67px;
+          justify-content: center;
+     }
+
+     .active {
+          background-color: #fff;
+     }
+
+     .filter-option {
+          font-size: 10px;
+          padding: 1px 6px;
+     }
+
+     .left-btn,
+     .right-btn {
+          font-size: 10px;
+          padding: 9px 12px;
+     }
+
+     .modal__sidebar-header {
+          height: var(--nav-height);
+          display: flex;
+          align-items: center;
+          margin-left: 14px;
+     }
+
+     .modal__toggle-icon {
+          font-size: var(--font-icon);
+          padding-bottom: 6px;
+          margin: 0 2px;
+     }
+
+     .modal__sidebar-link {
+          height: 35px;
+     }
+
+     .modal__sidebar-icon {
+          font-size: var(--font-icon);
+     }
+
+     .modal__sidebar-name {
+          font-size: 14px;
+     }
+
+     .video__content-title {
+          font-size: 11px;
+     }
+
+     .video__channel-name,
+     .video__history {
+          font-size: 10px;
+     }
+}
+
+@media (min-width: 992px) {
+     :root {
+          --nav-height: 56px;
+          --sidebar-width: 68px;
+          --active__sidebar-width: 240px;
+          --filter-wraper-height: 56px;
+          --font-icon: 24px;
+     }
+
+     .nav {
+          height: var(--nav-height);
+          padding: 0 16px;
+     }
+
+     .logo {
+          margin-right: 45px;
+     }
+
+     .toggle__icon {
+          font-size: 24px;
+     }
+
+     .ytb__logo {
+          width: 90px;
+     }
+
+     .ytb__country {
+          font-size: 10px;
+     }
+
+     .search__form {
+          height: 40px;
+     }
+
+     .search__input {
+          padding: 10px 6px;
+     }
+
+     .search__input::placeholder {
+          font-size: 14px;
+     }
+
+     .search__btn {
+          height: 40px;
+          width: 64px;
+     }
+
+     .search__icon,
+     .voice__icon {
+          font-size: var(--font-icon);
+     }
+
+     .taskbar__item-icon {
+          font-size: var(--font-icon);
+     }
+
+     .taskbar {
+          margin-left: 14px;
+     }
+
+     .taskbar__item {
+          margin: 0 14px;
+     }
+
+     .up-video__container {
+          width: 180px;
+          padding: 8px 0;
+     }
+
+     .up-video__item {
+          height: 40px;
+     }
+
+     .up-video__link {
+          line-height: 40px;
+          padding-left: 8px;
+          font-size: 14px;
+     }
+
+     .up-video__icon {
+          margin-right: 10px;
+          font-weight: 300;
+     }
+
+     .select-app__container {
+          right: 100px;
+          width: 260px;
+     }
+
+     .select-app__list {
+          padding: 8px 0;
+     }
+
+     .select-app__tv {
+          margin-bottom: 8px;
+     }
+
+     .select-app__artist {
+          margin-top: 8px;
+     }
+
+     .select-app__tv,
+     .select-app__artist,
+     .select-app__item {
+          height: 40px;
+     }
+
+     .select-app__link {
+          line-height: 40px;
+          font-size: 14px;
+     }
+
+     .select-app__icon {
+          width: 25px;
+          margin: 0 12px;
+     }
+
+     .notifications__container {
+          width: 480px;
+          right: 35px;
+     }
+
+     .active__taskbar-item .notifications__container {
+          display: block;
+     }
+
+     .notifications__header {
+          height: 48px;
+          padding: 0 16px;
+          font-size: 14px;
+     }
+
+     .notifications__list {
+          max-height: 50vh;
+          overflow: scroll;
+          overflow-x: hidden;
+     }
+
+     .notifications__list::-webkit-scrollbar {
+          width: 8px;
+     }
+
+     .notifications__list::-webkit-scrollbar-track {
+          background-color: #fff;
+     }
+
+     .notifications__list::-webkit-scrollbar-thumb {
+          background-color: #fff;
+     }
+
+     .notifications__list:hover:-webkit-scrollbar-thumb {
+          background-color: darkgrey;
+     }
+
+     .notifications__item {
+          padding: 16px 0 16px 16px;
+          height: 98px;
+     }
+
+     .notifications__link {
+          width: 440px;
+          font-size: 14px;
+          padding-right: 16px;
+     }
+
+     .notifications__video-title {
+          line-height: 18px;
+          margin: 0 16px;
+     }
+
+     .notifications__channel {
+          width: 48px;
+          height: 48px;
+          border-radius: 50%;
+          object-fit: cover;
+     }
+
+     .notifications__video-img {
+          width: 86px;
+          object-fit: cover;
+     }
+
+     .avatar-img {
+          width: 36px;
+          height: 36px;
+     }
+
+     .sidebar__header {
+          padding: 14px;
+          display: flex;
+          height: var(--nav-height);
+          align-items: center;
+          opacity: 1;
+     }
+
+     .sidebar {
+          font-size: 10px;
+          padding-right: 0;
+          overflow: hidden;
+     }
+
+     .sidebar__active .menu .menu__item-link,
+     .sidebar__active .submenu .menu__item-link {
+          height: 40px;
+          padding-top: 0;
+          justify-content: left;
+     }
+     .menu {
+          margin-bottom: 0;
+     }
+
+     .submenu {
+          margin-bottom: 0px;
+          padding-top: 0px;
+          border-top: none;
+     }
+
+     .sidebar__active .submenu {
+          margin-bottom: 12px;
+          padding-top: 12px;
+          border-top: 1px solid #e5e5e5;
+     }
+
+     .sidebar__active .submenu .menu__item-link:nth-child(2),
+     .sidebar__active .submenu .menu__item-link:nth-child(3),
+     .sidebar__active .submenu .menu__item-link:nth-child(5),
+     .sidebar__active .submenu .menu__item-link:nth-child(4),
+     .sidebar__active .submenu .menu__item-link:last-child {
+          display: flex;
+     }
+
+     .submenu .menu__item-link:nth-child(2),
+     .submenu .menu__item-link:nth-child(3),
+     .submenu .menu__item-link:nth-child(5),
+     .submenu .menu__item-link:nth-child(4),
+     .submenu .menu__item-link:last-child {
+          display: none;
+     }
+
+     .menu {
+          width: 100%;
+          margin-bottom: 6px;
+          padding-top: 6px;
+     }
+
+     .menu__item-link {
+          height: 55px;
+          justify-content: center;
+     }
+
+     .menu__item-icon {
+          font-size: var(--font-icon);
+     }
+
+     .menu__item-name {
+          font-size: 10px;
+     }
+
+     .active {
+          background-color: #fff;
+     }
+
+     .filter-option {
+          font-size: 14px;
+          padding: 4px 8px;
+     }
+
+     .left-btn,
+     .right-btn {
+          padding: 15px 16px;
+     }
+
+     .left-btn-icon,
+     .right-btn-icon {
+          font-size: 18px;
+     }
+
+     .modal__sidebar-header {
+          height: calc(var(--nav-height) + 1);
+          display: flex;
+          align-items: center;
+          margin-left: 14px;
+     }
+
+     .modal__toggle-icon {
+          font-size: var(--font-icon);
+          padding-bottom: 6px;
+          margin: 0 2px;
+     }
+
+     .modal__sidebar-link {
+          height: 40px;
+     }
+
+     .modal__sidebar-icon {
+          font-size: var(--font-icon);
+     }
+
+     .modal__sidebar-name {
+          font-size: 14px;
+     }
+
+     .video__container {
+          grid-template-columns: 1fr 1fr 1fr;
+          padding: 20px;
+     }
+
+     .video__content {
+          padding: 0;
+     }
+
+     .video__channel-img {
+          width: 36px;
+          height: 36px;
+          margin-right: 6px;
+     }
+
+     .video__content-title {
+          font-size: 14px;
+          line-height: 22px;
+          max-height: 44px;
+          margin-bottom: 6px;
+     }
+
+     .video__channel-name,
+     .video__history {
+          font-size: 12px;
+     }
+     .video__dot {
+          width: 3px;
+          height: 3px;
+          border-radius: 50%;
+          background-color: #606060;
+          margin: 0 3px;
+     }
+}
+
+@media (min-width: 1128px) and (max-width: 1312px) {
+     :root {
+          --primary-color: #030303;
+          --nav-height: 56px;
+          --sidebar-width: 72px;
+          --active__sidebar-width: 240px;
+          --filter-wraper-height: 55px;
+          --font-icon: 24px;
+          --mb-size: 12px;
+     }
+
+     .logo {
+          flex: 1;
+     }
+
+     .search__form {
+          width: 572px;
+          align-items: center;
+          height: 40px;
+          border: 1px solid #ccc;
+          border-right: none;
+          border-top-left-radius: 2px;
+          border-bottom-left-radius: 2px;
+     }
+
+     .taskbar {
+          flex: 1;
+          justify-content: flex-end;
+          margin-left: 90px;
+     }
+
+     .sidebar__header {
+          padding: 14px;
+          display: flex;
+          height: var(--nav-height);
+          align-items: center;
+          opacity: 1;
+     }
+
+     .sidebar {
+          font-size: 10px;
+          padding-right: 0;
+          overflow: hidden;
+     }
+
+     .sidebar__active .menu .menu__item-link,
+     .sidebar__active .submenu .menu__item-link {
+          height: 40px;
+          padding-top: 0;
+          justify-content: left;
+     }
+     .menu {
+          margin-bottom: 0;
+     }
+
+     .submenu {
+          margin-bottom: 0px;
+          padding-top: 0px;
+          border-top: none;
+     }
+
+     .sidebar__active .submenu {
+          margin-bottom: 12px;
+          padding-top: 12px;
+          border-top: 1px solid #e5e5e5;
+     }
+
+     .sidebar__active .submenu .menu__item-link:nth-child(2),
+     .sidebar__active .submenu .menu__item-link:nth-child(3),
+     .sidebar__active .submenu .menu__item-link:nth-child(5),
+     .sidebar__active .submenu .menu__item-link:nth-child(4),
+     .sidebar__active .submenu .menu__item-link:last-child {
+          display: flex;
+     }
+
+     .submenu .menu__item-link:nth-child(2),
+     .submenu .menu__item-link:nth-child(3),
+     .submenu .menu__item-link:nth-child(5),
+     .submenu .menu__item-link:nth-child(4),
+     .submenu .menu__item-link:last-child {
+          display: none;
+     }
+
+     .menu__item-link {
+          height: 74px;
+          justify-content: center;
+          padding-top: 16px;
+     }
+
+     .menu__item-icon {
+          font-size: 18px;
+     }
+
+     .video__container {
+          padding: 20px;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          grid-gap: 60px 15px;
+     }
+
+     .video__content-title {
+          font-size: 14px;
+     }
+
+     .video__channel-name,
+     .video__history {
+          font-size: 12px;
+     }
+}
+
+@media (min-width: 1313px) {
+     :root {
+          --primary-color: #030303;
+          --nav-height: 56px;
+          --sidebar-width: 240px;
+          --active__sidebar-width: 72px;
+          --filter-wraper-height: 56px;
+          --font-icon: 24px;
+          --mb-size: 12px;
+     }
+
+     .logo {
+          margin-right: 90px;
+     }
+
+     .search {
+          flex: 1;
+     }
+
+     .search__form {
+          align-items: center;
+          height: 40px;
+          border: 1px solid #ccc;
+          border-right: none;
+          border-top-left-radius: 2px;
+          border-bottom-left-radius: 2px;
+     }
+
+     .taskbar {
+          margin-left: 90px;
+     }
+
+     .taskbar__item {
+          margin: 0 15px;
+     }
+
+     .select-app__container {
+          right: 110px;
+          width: 260px;
+     }
+
+     .notifications__container {
+          width: 480px;
+          right: 60px;
+     }
+
+     .menu {
+          width: 100%;
+          margin-bottom: 12px;
+          padding-top: 12px;
+     }
+
+     .menu__item-link {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: flex-start;
+          align-items: center;
+          text-align: center;
+          color: var(--primary-color);
+          width: 100%;
+          height: 40px;
+     }
+
+     .menu__item-icon {
+          font-size: var(--font-icon);
+     }
+
+     .sidebar__active .menu .menu__item-link {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 74px;
+          padding: 14px 0;
+          margin: auto;
+     }
+
+     .submenu {
+          margin-bottom: 12px;
+          padding-top: 12px;
+          border-top: 1px solid #e5e5e5;
+     }
+
+     .submenu .menu__item-link:nth-child(2),
+     .submenu .menu__item-link:nth-child(3),
+     .submenu .menu__item-link:nth-child(5),
+     .submenu .menu__item-link:nth-child(4),
+     .submenu .menu__item-link:last-child {
+          display: flex;
+     }
+
+     .menu__item-name {
+          font-size: 16px;
+     }
+
+     .sidebar__active .menu .menu__item-link .menu__item-name,
+     .sidebar__active .submenu .menu__item-link .menu__item-name {
+          margin-top: 6px;
+          font-size: 10px;
+     }
+
+     .sidebar__active .submenu .menu__item-link {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 74px;
+          padding: 14px 0;
+          margin: auto;
+     }
+
+     .sidebar__active .submenu {
+          margin-bottom: 0;
+          padding-top: 0;
+          border-top: 0;
+     }
+
+     .sidebar__active .submenu .menu__item-link:nth-child(2),
+     .sidebar__active .submenu .menu__item-link:nth-child(3),
+     .sidebar__active .submenu .menu__item-link:nth-child(5),
+     .sidebar__active .submenu .menu__item-link:nth-child(4),
+     .sidebar__active .submenu .menu__item-link:last-child {
+          display: none;
+     }
+
+     .video__container {
+          padding: 20px;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
+          grid-gap: 60px 15px;
+     }
+}
+
+@media (min-width: 1850px) {
+     .video__container {
+          padding: 20px 80px;
+     }
+
+     .video__content-title {
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 22px;
+          max-height: 44px;
+          margin-bottom: 6px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+          color: #030303;
+     }
+
+     .video__channel-img {
+          margin-right: 10px;
+     }
+
+     .video__channel-name,
+     .video__history {
+          color: #606060;
+          font-size: 14px;
+          align-items: center;
+     }
+
+     .video__history {
+          display: flex;
+     }
+
+     .video__dot {
+          width: 4px;
+          height: 4px;
+          border-radius: 50%;
+          background-color: #606060;
+          margin: 0 3px 2px;
+     }
+
+     .video__option {
+          width: 20px;
+          opacity: 0;
+          visibility: visible;
+     }
+
+     .video__option i {
+          font-size: 18px;
+     }
+}
