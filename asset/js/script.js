@@ -92,6 +92,11 @@ leftBtn.style.display = "none";
 rightBtn.style.display = "block";
 
 
+sliders.addEventListener('touchstart', (e) => {
+    console.log(e.touches)
+})
+
+
 rightBtn.onclick = function () {
 
     if (sideBar.classList.contains('sidebar__active')) {
