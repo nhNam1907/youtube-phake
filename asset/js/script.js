@@ -92,15 +92,17 @@ leftBtn.style.display = "none";
 rightBtn.style.display = "block";
 
 
-sliders.addEventListener('touchstart', (e) => {
-    console.log(e.touches)
-})
-
+if (window.innerWidth < 576) {
+    leftBtn.style.display = "none";
+    rightBtn.style.display = "none";
+    sliders.style.overflowX = "scroll";
+}
 
 rightBtn.onclick = function () {
 
     if (sideBar.classList.contains('sidebar__active')) {
         endSlider = sliders.scrollWidth - sliders.clientWidth;
+        scrollAmount = endSlider / 4;
         handleOpacityBtn();
         sliders.scrollLeft += scrollAmount;
     }
@@ -118,12 +120,14 @@ leftBtn.onclick = function () {
 
     if (sideBar.classList.contains('sidebar__active')) {
         endSlider = sliders.scrollWidth - sliders.clientWidth;
+        scrollAmount = endSlider / 4;
         sliders.scrollLeft -= scrollAmount;
         handleOpacityBtn();
 
     }
     else {
         endSlider = sliders.scrollWidth - sliders.clientWidth;
+        scrollAmount = endSlider / 4;
         sliders.scrollLeft -= scrollAmount;
         handleOpacityBtn();
     }
