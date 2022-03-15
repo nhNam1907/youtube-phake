@@ -133,36 +133,6 @@ sliders.addEventListener("wheel", (evt) => {
     handleOpacityBtn();
 });
 
-let isDown = false;
-let startX;
-let scrollLeft;
-
-sliders.addEventListener('mousedown', (e) => {
-    isDown = true;
-    startX = e.pageX - sliders.offsetLeft;
-    scrollLeft = sliders.scrollLeft;
-});
-
-sliders.addEventListener('mouseleave', () => {
-    isDown = false;
-    sliders.classList.remove('active');
-});
-
-sliders.addEventListener('mouseup', () => {
-    isDown = false;
-    sliders.classList.remove('active');
-});
-
-sliders.addEventListener('mousemove', (e) => {
-    if (!isDown) return;
-    e.preventDefault();
-    const x = e.pageX - sliders.offsetLeft;
-    const walk = (x - startX); //scroll-fast
-    sliders.scrollLeft = scrollLeft - walk;
-    console.log(walk);
-});
-
-
 // handle show/hiden button
 const handleOpacityBtn = () => {
     if (sliders.scrollLeft > 0) {
@@ -263,6 +233,3 @@ const creatVideo = (data) => {
     `
 }
 
-// const videoImg = document.querySelector('.video__img');
-// videoImg.scroll.backgroundImage =
-// console.log(videoImg)
