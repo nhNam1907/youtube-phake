@@ -1067,11 +1067,14 @@
      }
 
      .logo {
+          margin-right: 90px;
+     }
+
+     .search {
           flex: 1;
      }
 
      .search__form {
-          width: 572px;
           align-items: center;
           height: 40px;
           border: 1px solid #ccc;
@@ -1081,7 +1084,6 @@
      }
 
      .taskbar {
-          flex: 1;
           justify-content: flex-end;
           margin-left: 90px;
      }
@@ -1186,6 +1188,7 @@
 
      .search__form {
           align-items: center;
+          max-width: 576px;
           height: 40px;
           border: 1px solid #ccc;
           border-right: none;

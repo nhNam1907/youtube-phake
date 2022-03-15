@@ -95,7 +95,7 @@ rightBtn.style.display = "block";
 if (window.innerWidth < 576) {
     leftBtn.style.display = "none";
     rightBtn.style.display = "none";
-    sliders.style.overflowX = "scroll";
+    sliders.style.overflow = "scroll";
 }
 
 rightBtn.onclick = function () {
