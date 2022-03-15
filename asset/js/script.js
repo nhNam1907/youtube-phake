@@ -96,7 +96,6 @@ rightBtn.onclick = function () {
 
     if (sideBar.classList.contains('sidebar__active')) {
         endSlider = sliders.scrollWidth - sliders.clientWidth;
-        scrollAmount = endSlider / 4;
         handleOpacityBtn();
         sliders.scrollLeft += scrollAmount;
     }
@@ -152,10 +151,12 @@ sliders.addEventListener('mouseup', () => {
 });
 
 sliders.addEventListener('mousemove', (e) => {
+    endSlider = sliders.scrollWidth - sliders.clientWidth;
     if (!isDown) return;
     e.preventDefault();
     const x = e.pageX - sliders.offsetLeft;
     const walk = (x - startX);
+    handleOpacityBtn();
     sliders.scrollLeft = scrollLeft - walk;
 });
 
