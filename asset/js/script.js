@@ -88,8 +88,8 @@ let endSlider;
 let scrollAmount;
 
 
-leftBtn.style.opacity = "0";
-rightBtn.style.opacity = "1";
+leftBtn.style.display = "none";
+rightBtn.style.display = "block";
 
 
 rightBtn.onclick = function () {
@@ -163,14 +163,14 @@ sliders.addEventListener('mousemove', (e) => {
 // handle show/hiden button
 const handleOpacityBtn = () => {
     if (sliders.scrollLeft > 0) {
-        leftBtn.style.opacity = "1";
+        leftBtn.style.display = "block";
     } else {
-        leftBtn.style.opacity = "0";
+        leftBtn.style.display = "none";
     }
     if (sliders.scrollLeft < endSlider) {
-        rightBtn.style.opacity = "1";
+        rightBtn.style.display = "block";
     } else {
-        rightBtn.style.opacity = "0";
+        rightBtn.style.display = "none";
     }
 }
 
