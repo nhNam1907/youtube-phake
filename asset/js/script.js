@@ -133,6 +133,7 @@ sliders.addEventListener("wheel", (evt) => {
     handleOpacityBtn();
 });
 
+<<<<<<< HEAD
 let isDown = false;
 let startX;
 let scrollLeft;
@@ -160,6 +161,8 @@ sliders.addEventListener('mousemove', (e) => {
 });
 
 
+=======
+>>>>>>> 57d6afa104e79c5cf4d38e8e34c6fca0916dac2a
 // handle show/hiden button
 const handleOpacityBtn = () => {
     if (sliders.scrollLeft > 0) {
@@ -259,6 +262,3 @@ const creatVideo = (data) => {
     `
 }
 
-// const videoImg = document.querySelector('.video__img');
-// videoImg.scroll.backgroundImage =
-// console.log(videoImg)
