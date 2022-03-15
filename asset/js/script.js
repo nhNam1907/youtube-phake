@@ -145,21 +145,18 @@ sliders.addEventListener('mousedown', (e) => {
 
 sliders.addEventListener('mouseleave', () => {
     isDown = false;
-    sliders.classList.remove('active');
 });
 
 sliders.addEventListener('mouseup', () => {
     isDown = false;
-    sliders.classList.remove('active');
 });
 
 sliders.addEventListener('mousemove', (e) => {
     if (!isDown) return;
     e.preventDefault();
     const x = e.pageX - sliders.offsetLeft;
-    const walk = (x - startX); //scroll-fast
+    const walk = (x - startX);
     sliders.scrollLeft = scrollLeft - walk;
-    console.log(walk);
 });
 
 
@@ -176,7 +173,6 @@ const handleOpacityBtn = () => {
         rightBtn.style.opacity = "0";
     }
 }
-
 
 
 // ==============Modal=================
