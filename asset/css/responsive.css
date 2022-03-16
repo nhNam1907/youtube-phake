@@ -1,3 +1,122 @@
+@media (max-width: 360px) {
+     :root {
+          --nav-height: 56px;
+          --sidebar-width: 0px;
+          --active__sidebar-width: 160px;
+          --filter-wraper-height: 56px;
+          --font-icon: 24px;
+     }
+
+     .nav {
+          height: var(--nav-height);
+          padding: 0 16px;
+     }
+
+     .logo {
+          margin-right: 0;
+     }
+
+     .toggle__icon {
+          display: none;
+     }
+
+     .ytb__logo {
+          width: 90px;
+     }
+
+     .ytb__country {
+          font-size: 8px;
+     }
+
+     .search {
+          display: none;
+     }
+
+     .taskbar__item {
+          margin: 0 8px;
+     }
+
+     .taskbar__search {
+          display: block;
+     }
+
+     .up-video {
+          display: none;
+     }
+
+     .apps {
+          display: none;
+     }
+
+     .notifications__container {
+          width: 0;
+     }
+
+     .notifications__header {
+          display: none;
+     }
+
+     .active__taskbar-icon {
+          opacity: 0.65;
+     }
+     .taskbar__item-icon {
+          font-size: var(--font-icon);
+     }
+
+     .avatar-img {
+          width: 36px;
+          height: 36px;
+     }
+
+     .active {
+          background-color: #fff;
+     }
+
+     .filter-option {
+          font-size: 14px;
+          padding: 2px 6px;
+     }
+
+     .left-btn,
+     .right-btn {
+          display: none;
+     }
+
+     .video__container {
+          grid-template-columns: 1fr;
+          padding: 15px 25px;
+     }
+
+     .video__content {
+          padding: 0;
+     }
+
+     .video__channel-img {
+          width: 36px;
+          height: 36px;
+          margin-right: 6px;
+     }
+
+     .video__content-title {
+          font-size: 16px;
+          line-height: 22px;
+          max-height: 44px;
+          margin-bottom: 4px;
+     }
+
+     .video__channel-name,
+     .video__history {
+          font-size: 12px;
+     }
+     .video__dot {
+          width: 3px;
+          height: 3px;
+          border-radius: 50%;
+          background-color: #606060;
+          margin: 0 3px;
+     }
+}
+
 @media (min-width: 360px) {
      :root {
           --nav-height: 56px;
